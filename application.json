@@ -15,6 +15,10 @@
     {
       "id": "Widgets",
       "isDefault": false
+    },
+    {
+      "id": "Public.users",
+      "isDefault": false
     }
   ],
   "viewMode": false,
