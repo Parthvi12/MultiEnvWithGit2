@@ -22,6 +22,12 @@
   "unreadCommentThreads": 0,
   "color": "#D9E7FF",
   "icon": "laptop",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE"
+  },
   "unpublishedCustomJSLibs": [
     {
       "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
