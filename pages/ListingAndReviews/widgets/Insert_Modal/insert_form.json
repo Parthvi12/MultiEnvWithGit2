@@ -170,7 +170,7 @@
         {"key": "schema.__root_schema__.children.col2.borderRadius"}
     ],
     "borderWidth": "",
-    "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"__primaryKey__\", \"access\")}}",
+    "sourceData": "{{_.omit(data_table1.tableData[0], \"customColumn1\", \"__primaryKey__\", \"access\")}}",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",

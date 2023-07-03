@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "{\n  \"find\": \"listingAndReviews\",\n  \"filter\": { _id: /{{data_table.searchText||\"\"}}/i },\n  \"sort\": { \n{{data_table.sortOrder.column || 'accommodates'}}: {{data_table.sortOrder.order == \"desc\" ? -1 : 1}} \n},\n  \"skip\": {{(data_table.pageNo - 1) * data_table.pageSize}},\n  \"limit\": {{data_table.pageSize}},\n  \"batchSize\": {{data_table.pageSize}}\n}\n",
+      "body": "{\n  \"find\": \"listingAndReviews\",\n  \"filter\": { _id: /{{data_table1.searchText||\"\"}}/i },\n  \"sort\": { \n{{data_table.sortOrder.column || 'accommodates'}}: {{data_table1.sortOrder.order == \"desc\" ? -1 : 1}} \n},\n  \"skip\": {{(data_table.pageNo - 1) * data_table.pageSize}},\n  \"limit\": {{data_table.pageSize}},\n  \"batchSize\": {{data_table1.pageSize}}\n}\n",
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
@@ -129,13 +129,17 @@
       "data_table.searchText||\"\"",
       "data_table.sortOrder.column || 'accommodates'",
       "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+      "data_table1.pageSize",
+      "data_table1.searchText||\"\"",
+      "data_table1.sortOrder.order == \"desc\" ? -1 : 1",
       "key_select.selectedOptionValue",
       "order_select.selectedOptionValue"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-07-03T04:41:45Z"
   },
   "id": "ListingAndReviews_FindQuery",
   "deleted": false,
