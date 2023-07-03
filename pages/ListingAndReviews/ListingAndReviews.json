@@ -1,0 +1,65 @@
+{
+  "unpublishedPage": {
+    "name": "ListingAndReviews",
+    "slug": "listingandreviews",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1174,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 880,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 80,
+          "minHeight": 900,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ListingAndReviews_FindQuery",
+              "name": "FindQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "data_table.sortOrder.column || 'accommodates'",
+                "key_select.selectedOptionValue",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+                "data_table.pageSize",
+                "data_table.searchText||\"\"",
+                "(data_table.pageNo - 1) * data_table.pageSize",
+                "order_select.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "mongoEscapedWidgetNames": [
+          "data_table"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "ListingAndReviews",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "64953a388c164921a65b7f09_64953b128c164921a65b7f23"
+}
