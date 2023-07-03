@@ -139,7 +139,7 @@
     "bottomRow": 86,
     "fieldLimitExceeded": true,
     "parentRowSpace": 10,
-    "title": "Update Document Id: {{data_table1.selectedRow.access}}",
+    "title": "Update Document Id: {{data_table15.selectedRow.access}}",
     "type": "JSON_FORM_WIDGET",
     "hideCard": false,
     "animateLoading": true,
@@ -173,7 +173,7 @@
         {"key": "schema.__root_schema__.children.col2.borderRadius"}
     ],
     "borderWidth": "0",
-    "sourceData": "{{_.omit(data_table1.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"access\")}}",
+    "sourceData": "{{_.omit(data_table15.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"access\")}}",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",
@@ -189,7 +189,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "isVisible": "{{!!data_table1.selectedRow.access}}",
+    "isVisible": "{{!!data_table15.selectedRow.access}}",
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",

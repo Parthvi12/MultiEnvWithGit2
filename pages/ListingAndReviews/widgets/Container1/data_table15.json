@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "data_table1",
+    "widgetName": "data_table15",
     "onSort": "{{FindQuery.run()}}",
     "columnOrder": [
         "amenities",
@@ -127,7 +127,7 @@
         "amenities": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.amenities))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.amenities))}}",
             "textSize": "0.875rem",
             "index": 0,
             "isVisible": true,
@@ -146,7 +146,7 @@
         "notes": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.notes))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.notes))}}",
             "textSize": "0.875rem",
             "index": 1,
             "isVisible": true,
@@ -165,7 +165,7 @@
         "access": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.access))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.access))}}",
             "textSize": "0.875rem",
             "index": 2,
             "isVisible": true,
@@ -184,7 +184,7 @@
         "house_rules": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.house_rules))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.house_rules))}}",
             "textSize": "0.875rem",
             "index": 3,
             "isVisible": true,
@@ -203,7 +203,7 @@
         "description": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.description))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.description))}}",
             "textSize": "0.875rem",
             "index": 4,
             "isVisible": true,
@@ -222,7 +222,7 @@
         "calendar_last_scraped": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.calendar_last_scraped))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.calendar_last_scraped))}}",
             "textSize": "0.875rem",
             "index": 5,
             "isVisible": true,
@@ -241,7 +241,7 @@
         "first_review": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.first_review))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.first_review))}}",
             "textSize": "0.875rem",
             "index": 39,
             "isVisible": true,
@@ -260,7 +260,7 @@
         "neighborhood_overview": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.neighborhood_overview))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.neighborhood_overview))}}",
             "textSize": "0.875rem",
             "index": 6,
             "isVisible": true,
@@ -279,7 +279,7 @@
         "number_of_reviews": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.number_of_reviews))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.number_of_reviews))}}",
             "textSize": "0.875rem",
             "index": 7,
             "isVisible": true,
@@ -298,7 +298,7 @@
         "availability": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.availability))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.availability))}}",
             "textSize": "0.875rem",
             "index": 8,
             "isVisible": true,
@@ -317,7 +317,7 @@
         "space": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.space))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.space))}}",
             "textSize": "0.875rem",
             "index": 9,
             "isVisible": true,
@@ -336,7 +336,7 @@
         "review_scores": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.review_scores))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.review_scores))}}",
             "textSize": "0.875rem",
             "index": 10,
             "isVisible": true,
@@ -355,7 +355,7 @@
         "cleaning_fee": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.cleaning_fee))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.cleaning_fee))}}",
             "textSize": "0.875rem",
             "index": 11,
             "isVisible": true,
@@ -374,7 +374,7 @@
         "reviews": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.reviews))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.reviews))}}",
             "textSize": "0.875rem",
             "index": 12,
             "isVisible": true,
@@ -393,7 +393,7 @@
         "price": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.price))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.price))}}",
             "textSize": "0.875rem",
             "index": 13,
             "isVisible": true,
@@ -412,7 +412,7 @@
         "host": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.host))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.host))}}",
             "textSize": "0.875rem",
             "index": 14,
             "isVisible": true,
@@ -431,7 +431,7 @@
         "property_type": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.property_type))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.property_type))}}",
             "textSize": "0.875rem",
             "index": 15,
             "isVisible": true,
@@ -450,7 +450,7 @@
         "summary": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.summary))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.summary))}}",
             "textSize": "0.875rem",
             "index": 16,
             "isVisible": true,
@@ -469,7 +469,7 @@
         "monthly_price": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.monthly_price))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.monthly_price))}}",
             "textSize": "0.875rem",
             "index": 17,
             "isVisible": true,
@@ -488,7 +488,7 @@
         "security_deposit": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.security_deposit))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.security_deposit))}}",
             "textSize": "0.875rem",
             "index": 18,
             "isVisible": true,
@@ -507,7 +507,7 @@
         "images": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.images))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.images))}}",
             "textSize": "0.875rem",
             "index": 19,
             "isVisible": true,
@@ -526,7 +526,7 @@
         "address": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.address))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.address))}}",
             "textSize": "0.875rem",
             "index": 20,
             "isVisible": true,
@@ -545,7 +545,7 @@
         "weekly_price": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.weekly_price))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.weekly_price))}}",
             "textSize": "0.875rem",
             "index": 21,
             "isVisible": true,
@@ -564,7 +564,7 @@
         "bed_type": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.bed_type))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.bed_type))}}",
             "textSize": "0.875rem",
             "index": 22,
             "isVisible": true,
@@ -583,7 +583,7 @@
         "listing_url": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.listing_url))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.listing_url))}}",
             "textSize": "0.875rem",
             "index": 23,
             "isVisible": true,
@@ -602,7 +602,7 @@
         "guests_included": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.guests_included))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.guests_included))}}",
             "textSize": "0.875rem",
             "index": 24,
             "isVisible": true,
@@ -620,20 +620,20 @@
         },
         "customColumn1": {
             "isCellVisible": true,
-            "boxShadow": "{{data_table1.sanitizedTableData.map((currentRow) => ( \"none\"))}}",
+            "boxShadow": "{{data_table15.sanitizedTableData.map((currentRow) => ( \"none\"))}}",
             "isDerived": true,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.customColumn1))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.customColumn1))}}",
             "onClick": "{{showModal('Delete_Modal')}}",
             "textSize": "0.875rem",
-            "buttonColor": "{{data_table1.sanitizedTableData.map((currentRow) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "buttonColor": "{{data_table15.sanitizedTableData.map((currentRow) => ( (appsmith.theme.colors.primaryColor)))}}",
             "iconName": "",
             "index": 7,
             "isVisible": true,
             "label": "Delete",
-            "buttonLabel": "{{data_table1.sanitizedTableData.map((currentRow) => { return 'Delete'})}}",
+            "buttonLabel": "{{data_table15.sanitizedTableData.map((currentRow) => { return 'Delete'})}}",
             "columnType": "button",
             "horizontalAlignment": "LEFT",
-            "borderRadius": "{{data_table1.sanitizedTableData.map((currentRow) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "borderRadius": "{{data_table15.sanitizedTableData.map((currentRow) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
             "enableSort": true,
@@ -645,7 +645,7 @@
         "maximum_nights": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.maximum_nights))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.maximum_nights))}}",
             "textSize": "0.875rem",
             "index": 25,
             "isVisible": true,
@@ -664,7 +664,7 @@
         "bathrooms": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.bathrooms))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.bathrooms))}}",
             "textSize": "0.875rem",
             "index": 26,
             "isVisible": true,
@@ -683,7 +683,7 @@
         "bedrooms": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.bedrooms))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.bedrooms))}}",
             "textSize": "0.875rem",
             "index": 27,
             "isVisible": true,
@@ -702,7 +702,7 @@
         "extra_people": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.extra_people))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.extra_people))}}",
             "textSize": "0.875rem",
             "index": 28,
             "isVisible": true,
@@ -739,7 +739,7 @@
         "minimum_nights": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.minimum_nights))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.minimum_nights))}}",
             "textSize": "0.875rem",
             "index": 29,
             "isVisible": true,
@@ -758,7 +758,7 @@
         "last_review": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.last_review))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.last_review))}}",
             "textSize": "0.875rem",
             "index": 40,
             "isVisible": true,
@@ -777,7 +777,7 @@
         "transit": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.transit))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.transit))}}",
             "textSize": "0.875rem",
             "index": 30,
             "isVisible": true,
@@ -796,7 +796,7 @@
         "accommodates": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.accommodates))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.accommodates))}}",
             "textSize": "0.875rem",
             "index": 31,
             "isVisible": true,
@@ -815,7 +815,7 @@
         "name": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.name))}}",
             "textSize": "0.875rem",
             "index": 32,
             "isVisible": true,
@@ -834,7 +834,7 @@
         "interaction": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.interaction))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.interaction))}}",
             "textSize": "0.875rem",
             "index": 33,
             "isVisible": true,
@@ -853,7 +853,7 @@
         "cancellation_policy": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.cancellation_policy))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.cancellation_policy))}}",
             "textSize": "0.875rem",
             "index": 34,
             "isVisible": true,
@@ -872,7 +872,7 @@
         "beds": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.beds))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.beds))}}",
             "textSize": "0.875rem",
             "index": 36,
             "isVisible": true,
@@ -891,7 +891,7 @@
         "last_scraped": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.last_scraped))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.last_scraped))}}",
             "textSize": "0.875rem",
             "index": 37,
             "isVisible": true,
@@ -910,7 +910,7 @@
         "room_type": {
             "isCellVisible": true,
             "isDerived": false,
-            "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.room_type))}}",
+            "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.room_type))}}",
             "textSize": "0.875rem",
             "index": 38,
             "isVisible": true,
@@ -929,12 +929,12 @@
     },
     "delimiter": ",",
     "derivedColumns": {"customColumn1": {
-        "boxShadow": "{{data_table1.sanitizedTableData.map((currentRow) => ( \"none\"))}}",
+        "boxShadow": "{{data_table15.sanitizedTableData.map((currentRow) => ( \"none\"))}}",
         "isDerived": true,
-        "computedValue": "{{data_table1.sanitizedTableData.map((currentRow) => ( currentRow.customColumn1))}}",
+        "computedValue": "{{data_table15.sanitizedTableData.map((currentRow) => ( currentRow.customColumn1))}}",
         "onClick": "{{DeleteQuery.run()}}",
         "textSize": "0.875rem",
-        "buttonColor": "{{data_table1.sanitizedTableData.map((currentRow) => ( (appsmith.theme.colors.primaryColor)))}}",
+        "buttonColor": "{{data_table15.sanitizedTableData.map((currentRow) => ( (appsmith.theme.colors.primaryColor)))}}",
         "buttonStyle": "#DD4B34",
         "index": 7,
         "isVisible": true,
@@ -942,7 +942,7 @@
         "buttonLabel": "{{data_table.sanitizedTableData.map((currentRow) => { return 'Delete'})}}",
         "columnType": "button",
         "horizontalAlignment": "LEFT",
-        "borderRadius": "{{data_table1.sanitizedTableData.map((currentRow) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+        "borderRadius": "{{data_table15.sanitizedTableData.map((currentRow) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
         "width": 150,
         "enableFilter": true,
         "enableSort": true,

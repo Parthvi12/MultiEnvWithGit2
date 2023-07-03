@@ -1,10 +1,10 @@
 {
   "find": "listingAndReviews",
-  "filter": { _id: /{{data_table1.searchText||""}}/i },
+  "filter": { _id: /{{data_table15.searchText||""}}/i },
   "sort": { 
 {{data_table.sortOrder.column || 'accommodates'}}: {{data_table1.sortOrder.order == "desc" ? -1 : 1}} 
 },
   "skip": {{(data_table.pageNo - 1) * data_table.pageSize}},
   "limit": {{data_table.pageSize}},
-  "batchSize": {{data_table1.pageSize}}
+  "batchSize": {{data_table15.pageSize}}
 }
