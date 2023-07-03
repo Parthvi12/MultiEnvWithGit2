@@ -34,16 +34,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "data_table10.pageSize",
+                "data_table10.searchText||\"\"",
                 "data_table.sortOrder.column || 'accommodates'",
-                "data_table1.searchText||\"\"",
                 "key_select.selectedOptionValue",
-                "data_table1.pageSize",
                 "data_table.sortOrder.order == \"desc\" ? -1 : 1",
                 "data_table.pageSize",
                 "data_table.searchText||\"\"",
                 "(data_table.pageNo - 1) * data_table.pageSize",
-                "order_select.selectedOptionValue",
-                "data_table1.sortOrder.order == \"desc\" ? -1 : 1"
+                "data_table1.sortOrder.order == \"desc\" ? -1 : 1",
+                "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -51,7 +51,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "mongoEscapedWidgetNames": [
-          "data_table1"
+          "data_table10"
         ],
         "validOnPageLoadActions": true,
         "id": "ListingAndReviews",

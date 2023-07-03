@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Container1",
+    "widgetName": "Container123",
     "borderColor": "#fff",
     "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "topRow": 0,
